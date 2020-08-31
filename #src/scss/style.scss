@@ -1,0 +1,24 @@
+@import "import/null";
+// Ниже пиши свои скрипты
+.message {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__boby {
+		font-size: 18px;
+		color: #FFF;
+		padding: 70px 140px;
+		background-color: #1A599A;
+		h3{
+			font-size: 24px;
+			margin-bottom: 20px;
+		}
+		ul li{
+			list-style: decimal;
+			margin-bottom: 5px;
+		}
+	}
+}
+
